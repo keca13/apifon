@@ -9,7 +9,7 @@
     <script src="main.js"></script>
 </head>
 <body>
-<!-- https://www.uw-team.org/-->
+<!-- https://www.uw-team.org/bbbbbbbbbbb-->
 <!-- instrukcje warunkowe i obsluga formularzy-->
 <form method= "post" action"">
 imie: <input type="text" name="imie">
