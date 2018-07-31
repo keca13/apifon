@@ -38,7 +38,7 @@ $wynik1 = $liczba1 + $liczba2;
 $wynik2 = $liczba1 - $liczba2;
 $wynik3 = $liczba1 * $liczba2;
 
-echo("suma wynosi: $wynik1");
+echo(" Suma wynosi: $wynik1");
 
 
 
