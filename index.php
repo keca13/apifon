@@ -12,24 +12,32 @@
 <!-- https://www.uw-team.org/bbbbbbbbbbb-->
 <!-- instrukcje warunkowe i obsluga formularzy-->
 <form method= "post" action"">
-imie: <input type="text" name="imie">
+Zgadnij jaka liczbę wymyslilem (0-1000)<br>
+Liczba: <input type="text" name="liczba">
 <input type="submit" value="wyslij">
 
 </form>
+
 <?php
 
 ini_set('display_errors', '0');     # don't show any errors...
 error_reporting(E_ALL | E_STRICT);  # ...but do log them
 
 
-if ($_POST['imie']=='unknow'){
+$liczba_komputera =431;
+if ($_POST['liczba']>$liczba_komputera){
 
+    echo'Za duzo :(');
 
-echo('Witaj ' .$_POST['imie']);
-} else {
-    echo('Nie znam Cie');
+} elseif ($_POST['liczba']<$liczba_komputera){
+echo('Za malo:b(');
+
+}else {
+    echo('Zgadles!');
 }
+
 ?>
+
 <?php
 
 //skladnia, tablice globalne
