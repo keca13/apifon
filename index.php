@@ -27,7 +27,7 @@ error_reporting(E_ALL | E_STRICT);  # ...but do log them
 $liczba_komputera =431;
 if ($_POST['liczba']>$liczba_komputera){
 
-    echo'Za duzo :(');
+    echo ('Za duzo :(');
 
 } elseif ($_POST['liczba']<$liczba_komputera){
 echo('Za malo:b(');
