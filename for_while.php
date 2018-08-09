@@ -12,7 +12,10 @@
 <?php
 //zastosowanie pętli FOR i WHILE #
 
-
+echo ('unknown<br>');
+echo ('unknown<br>');
+echo ('unknown<br>');
+echo ('unknown<br>');
 ?>
     nnn
 </body>
