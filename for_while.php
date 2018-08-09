@@ -9,6 +9,11 @@
     <script src="main.js"></script>
 </head>
 <body>
+<?php
+//zastosowanie pętli FOR i WHILE #
+
+
+?>
     nnn
 </body>
 </html>
