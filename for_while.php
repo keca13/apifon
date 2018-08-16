@@ -10,7 +10,7 @@
 </head>
 <body>
 <?php
-//zastosowanie pętli FOR i WHILE #
+//zastosowanie pętli FOR i WHILE ###    
 
 echo ('unknown<br>');
 echo ('unknown<br>');
