@@ -11,11 +11,19 @@
 <body>
 <?php
 //zastosowanie pętli FOR i WHILE ###    
+$licznik = 10;
 
+while($licznik>0){
 echo ('unknown<br>');
-echo ('unknown<br>');
-echo ('unknown<br>');
-echo ('unknown<br>');
+$licznik = $licznik - 1;
+}
+
+
+for($i=0; $i<10; $i++){
+
+    echo('unknown<br>');
+}
+
 ?>
     nnn
 </body>
