@@ -23,3 +23,21 @@ return $a * $b;
 }
 echo ('Pole prostokata o bokach 5x3 ='.poleProst(5,3));
 ?>
+
+
+<?php
+function parzysta($liczba){
+if ($liczba%2==0){
+    return true;
+}  else {
+    return false;
+}
+}
+$zmienna = 6;
+if(parzysta($zmienna)){
+    echo('<br>Parzysta<br>');
+}else{
+    echo('<br>nieparzysta<br>');
+}
+
+?>
